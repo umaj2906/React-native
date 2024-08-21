@@ -18,8 +18,9 @@ steps:
 
 - script: |
     cd android
-    ./gradlew bundleRelease # Generates an AAB for Play Store
+    ./gradlew bundleRelease
   displayName: 'Build Android App Bundle'
+
 
 - task: CopyFiles@2
   inputs:
