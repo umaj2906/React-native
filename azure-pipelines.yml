@@ -3,8 +3,7 @@ trigger:
     include:
       - main # Adjust this to your primary branch
 
-pool:
-  vmImage: 'ubuntu-latest' # Use 'macos-latest' for iOS, 'windows-latest' for Windows, or 'ubuntu-latest' for Linux
+pool: ubuntu-latest
 
 steps:
 - task: NodeTool@0
